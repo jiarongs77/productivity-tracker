@@ -1,0 +1,22 @@
+# Python virtual environment
+backend/venv/
+
+# Environment variables (never commit API keys)
+backend/.env
+
+# FAISS index (generated at runtime)
+backend/faiss_index/
+
+# Node modules
+frontend/node_modules/
+
+# React build output
+frontend/build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Mac system files
+.DS_Store
